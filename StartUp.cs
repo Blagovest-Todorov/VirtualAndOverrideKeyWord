@@ -1,0 +1,25 @@
+﻿using System;
+
+namespace AnimalsConnection
+{
+    public class StartUp
+    {
+        static void Main(string[] args)
+        {
+            Dog dog = new Dog();
+            dog.Eat();
+            dog.Bark();
+
+            Cat cat = new Cat();
+            cat.Eat();
+            cat.Meow();
+
+            Console.WriteLine();
+
+            dog.Talk();
+            cat.Talk();
+
+
+        }
+    }
+}
